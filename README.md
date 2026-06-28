@@ -13,8 +13,7 @@ A administração pública municipal frequentemente destina uma grande parcela d
 ## Estrutura do Repositório
 - `/gestao_projeto/`
     - `Termo_Abertura.md`, `EAP.md`, `Matriz_Riscos.md`, `Atas_Reuniao.md` e `Quadro_Kanban.png`
-    - `/docs`
-    - `/escopo-1`: Contém os documentos de diretrizes iniciais (`Atividade_Estudo_1_AE1.pdf` e `Atividade_Estudo_2_AE2.pdf`) utilizados como base de escopo.
+    - `/docs/escopo-1`: Contém os documentos de diretrizes iniciais (`Atividade_Estudo_1_AE1.pdf` e `Atividade_Estudo_2_AE2.pdf`) utilizados como base de escopo.
 - `/notebooks/`: Scripts em Python para ETL e EDA.
 - `/data/`: Subdividida em `raw/` (dados brutos) e `processed/` (dados limpos).
 - `/banco_de_dados/`: Scripts SQL (DDL/DQL) para PostgreSQL.

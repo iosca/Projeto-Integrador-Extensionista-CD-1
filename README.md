@@ -11,15 +11,15 @@ A administração pública municipal frequentemente destina uma grande parcela d
 - **Business Intelligence:** Metabase (Self-hosted)
 
 ## Estrutura do Repositório
-/
-├── data/
-│   ├── raw/           # Dados brutos coletados da API
-│   └── processed/     # Dados higienizados para o Dashboard
-├── notebooks/         # Pipeline de extração e transformação (ETL)
-├── banco_de_dados/    # Scripts SQL (DDL/DQL) para PostgreSQL
-├── dashboard/         # Prints de evidências do Metabase (Página 1 e 2)
-├── gestao_projeto/    # Termo de Abertura, EAP, Riscos, Kanban e docs
-└── relatorio_final/   # Documento oficial do projeto (ODT e PDF)
+- `/gestao_projeto/`
+    - `Termo_Abertura.md`, `EAP.md`, `Matriz_Riscos.md`, `Atas_Reuniao.md` e `Quadro_Kanban.png`
+    - `/docs`
+    - `/escopo-1`: Contém os documentos de diretrizes iniciais (`Atividade_Estudo_1_AE1.pdf` e `Atividade_Estudo_2_AE2.pdf`) utilizados como base de escopo.
+- `/notebooks/`: Scripts em Python para ETL e EDA.
+- `/data/`: Subdividida em `raw/` (dados brutos) e `processed/` (dados limpos).
+- `/banco_de_dados/`: Scripts SQL (DDL/DQL) para PostgreSQL.
+- `/dashboard/`: Evidências visuais (prints) do painel Metabase.
+- `/relatorio_final/`: Documentação oficial (ODT e PDF).
 
 ## Resultados Estratégicos
 - **Economia Projetada:** ~R$ 1,4 milhão/ano com a substituição de licenças proprietárias nos setores administrativos.
